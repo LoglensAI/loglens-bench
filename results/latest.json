@@ -1,0 +1,148 @@
+{
+  "schema": "loglens.bench.scoreboard.v1",
+  "hardware": {
+    "os": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "cpu": "x86_64",
+    "logical_cores": 12,
+    "measured_utc": "2026-10-06 11:37:58Z"
+  },
+  "lensd_source": "binary",
+  "grouping": [
+    {
+      "system": "Android",
+      "gt_templates": 166,
+      "oss": 0.6785,
+      "drain3": 0.6045,
+      "lensd": 0.7825
+    },
+    {
+      "system": "Apache",
+      "gt_templates": 6,
+      "oss": 1.0,
+      "drain3": 1.0,
+      "lensd": 1.0
+    },
+    {
+      "system": "BGL",
+      "gt_templates": 120,
+      "oss": 0.836,
+      "drain3": 0.9685,
+      "lensd": 0.4765
+    },
+    {
+      "system": "HDFS",
+      "gt_templates": 14,
+      "oss": 0.001,
+      "drain3": 0.9975,
+      "lensd": 0.9575
+    },
+    {
+      "system": "HPC",
+      "gt_templates": 46,
+      "oss": 0.9325,
+      "drain3": 0.741,
+      "lensd": 0.899
+    },
+    {
+      "system": "Hadoop",
+      "gt_templates": 114,
+      "oss": 0.957,
+      "drain3": 0.9535,
+      "lensd": 0.4275
+    },
+    {
+      "system": "HealthApp",
+      "gt_templates": 75,
+      "oss": 0.9915,
+      "drain3": 0.5755,
+      "lensd": 0.618
+    },
+    {
+      "system": "Linux",
+      "gt_templates": 118,
+      "oss": 0.189,
+      "drain3": 0.684,
+      "lensd": 0.189
+    },
+    {
+      "system": "Mac",
+      "gt_templates": 341,
+      "oss": 0.8355,
+      "drain3": 0.7145,
+      "lensd": 0.7
+    },
+    {
+      "system": "OpenSSH",
+      "gt_templates": 27,
+      "oss": 0.3355,
+      "drain3": 0.718,
+      "lensd": 0.1255
+    },
+    {
+      "system": "OpenStack",
+      "gt_templates": 43,
+      "oss": 0.4915,
+      "drain3": 0.3095,
+      "lensd": 0.516
+    },
+    {
+      "system": "Proxifier",
+      "gt_templates": 8,
+      "oss": 0.001,
+      "drain3": 0.0255,
+      "lensd": 0.001
+    },
+    {
+      "system": "Spark",
+      "gt_templates": 36,
+      "oss": 0.737,
+      "drain3": 0.9225,
+      "lensd": 0.7295
+    },
+    {
+      "system": "Thunderbird",
+      "gt_templates": 149,
+      "oss": 0.66,
+      "drain3": 0.955,
+      "lensd": 0.2295
+    },
+    {
+      "system": "Windows",
+      "gt_templates": 50,
+      "oss": 0.99,
+      "drain3": 0.571,
+      "lensd": 0.4045
+    },
+    {
+      "system": "Zookeeper",
+      "gt_templates": 50,
+      "oss": 0.849,
+      "drain3": 0.9665,
+      "lensd": 0.9745
+    }
+  ],
+  "detection": [
+    {
+      "dataset": "BGL (full)",
+      "metric": "window-F1",
+      "oss": "0.707",
+      "severity": "0.867",
+      "source": "external"
+    },
+    {
+      "dataset": "BGL (full)",
+      "metric": "line-F1",
+      "oss": "0.265",
+      "severity": "0.440",
+      "source": "external"
+    },
+    {
+      "dataset": "HDFS (500k)",
+      "metric": "block-F1",
+      "oss": "0.06",
+      "severity": "0.061",
+      "source": "external"
+    }
+  ]
+}
